@@ -77,10 +77,4 @@ function TodoItem ({ id, done, text }) {
     );
 }
 
-/* 
-    React.memo를 사용함으로써 컴포넌트를 최적화해줄 수 있다.
-    ex) 프로젝트 생성하기(첫번째 항목)를 눌렀을때 아래에 있는 컴포넌트들은 리렌더링 하지 않는다.
-    (다른 컴포넌트들은 dispatch만 가져오고 있기 때문에)
-    만약 하나의 context에 state, dispatch를 한번에 작성한다면 리렌더링 한다.
-*/
 export default React.memo(TodoItem);
