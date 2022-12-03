@@ -20,7 +20,7 @@ UI구성
 1. styled-components를 활용한 compnent의 스타일링
 2. react-icons를 활용
 
-#12/03
+# 12/03
 context API를 활용한 component간의 데이터 다루기.
   - 불필요한 렌더링 방지를 위한 context 분리<br>
   ![image](https://user-images.githubusercontent.com/61276416/205440062-b7a8d259-e54a-4871-8eb5-43271d0135dc.png)
